@@ -1,0 +1,59 @@
+.edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.edit h1{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.edit-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.edit-content input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.edit-buttons{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.edit-buttons .save{
+    background-color: rgb(211, 212, 252);
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(10, 10, 251);
+}
+
+.edit-buttons .save:hover{
+    cursor:pointer;
+    color:rgb(108, 108, 249);
+    background-color: bisque;
+}
+
+.edit-buttons .cancel{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(249, 160, 160);
+    color: rgb(59, 2, 59);
+}
+
+.edit-buttons .cancel:hover{
+    color: red;
+    background-color: bisque;
+}

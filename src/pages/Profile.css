@@ -1,0 +1,32 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-weight: 600;
+    font-size: 33px;
+}
+
+.profile-info{
+    font-weight: 400;
+    font-size: larger;
+    max-width: 400px;
+}
+
+.profile-button{
+    font-size: larger;
+    background-color: rgb(250, 234, 244);
+    border-radius: 4px;
+}
+
+.profile-button a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.profile-button :hover{
+    color:blueviolet;
+    transform: translateY(-2px);
+}

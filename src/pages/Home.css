@@ -1,0 +1,63 @@
+.home{
+    padding: 60px 40px;
+    min-height: 80vh;
+    border: 2px solid
+}
+
+.hero{
+    text-align: center;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h3{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-buttons a{
+    padding: 12px 20px;
+    text-decoration: none;
+    color:rgb(3, 3, 134);
+    background-color:rgb(165, 183, 249);
+    border-radius: 12px;
+}
+
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.stat-card{
+    padding: 25px;
+    width: 130px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(191, 249, 249);
+}
+
+.stat-card dd{
+    margin: 0px;
+    font-size: larger;
+}
+
+.stat-card dt{
+    font-size: larger;
+    font-weight: 700;
+}
+
