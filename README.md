@@ -1,2 +1,2 @@
-# Frontend-
-I would include my frontend projects/codes/assignments in this repository
+My student portal project that I am currently working on
+I am practicing routing , css and jsx here.
